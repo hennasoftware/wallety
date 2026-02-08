@@ -1,3 +1,5 @@
+import logo from '../assets/image/logo-wallety.png';
+
 export default function ComingSoon() {
     return (
         <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-950 via-slate-900 to-black text-slate-100 px-4">
@@ -8,11 +10,7 @@ export default function ComingSoon() {
         </span>
 
                 <div className="flex justify-center">
-                    <img
-                        src="../src/assets/image/logo-wallety.png"
-                        alt="Wallety Logo"
-                        className="h-20 w-auto"
-                    />
+                    <img src={logo} alt="Wallety Logo" className="h-20 w-auto" />
                 </div>
 
                 <h1 className="text-4xl font-bold tracking-tight">
