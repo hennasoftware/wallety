@@ -1,10 +1,10 @@
-import ComingSoon from "./pages/ComingSoon.tsx";
+import { AuthProvider } from "./context/AuthContext";
+import { AppRoutes } from "./routes";
 
 export default function App() {
-
-  return (
-    <>
-        <ComingSoon />
-    </>
-  )
+    return (
+        <AuthProvider>
+            <AppRoutes />
+        </AuthProvider>
+    );
 }
