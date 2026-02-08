@@ -9,7 +9,7 @@ export default function ComingSoon() {
 
                 <div className="flex justify-center">
                     <img
-                        src="/src/assets/image/logo-wallety.png"
+                        src="../src/assets/image/logo-wallety.png"
                         alt="Wallety Logo"
                         className="h-20 w-auto"
                     />
